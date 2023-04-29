@@ -1,6 +1,1 @@
-
-let num = 0;
-
-num = ++num;
-
-console.log("AOSDNOAISJDN")
+console.log(Number(""))
