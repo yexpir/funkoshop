@@ -1,0 +1,18 @@
+aside{
+    margin: auto;
+    
+}
+aside article{
+    display: flex;
+    flex-flow: row;
+}
+aside section{
+    display: inline-block;
+}
+aside>h1{
+    box-sizing: content-box;
+    display: block;
+    font-weight: 700;
+    font-size: 46px;
+    line-height: 54px;
+}
