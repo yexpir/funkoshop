@@ -13,7 +13,7 @@ body{
     grid-template-columns: 1fr;
     grid-template-rows: 144px max-content 1fr max-content 343px;
 
-    max-width: 1440px;
+    /* max-width: 1440px; */
     margin: auto auto;
     
 }
