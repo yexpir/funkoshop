@@ -67,7 +67,7 @@ main a{
 }
 main .button:hover{
     text-align: center;
-    background-image: linear-gradient(to top right,rgb(18, 22, 22, 0.5),rgb(0, 255, 128)39%,rgb(245, 255, 248)40%,rgb(245, 255, 248)60%,rgb(0, 255, 128)61%, rgb(18, 22, 22,0.5));    
+    background-image: linear-gradient(to top right,rgb(0, 255, 128),rgb(0, 255, 128)39%,rgb(245, 255, 248)40%,rgb(245, 255, 248)60%,rgb(0, 255, 128)61%, rgb(0, 255, 128));    
     border: 0px solid rgb(18, 22, 22);
     height: 64px;
     box-shadow: 0 0 50px rgb(18, 22, 22, 2);
@@ -79,14 +79,14 @@ main .button:hover span{
 }
 
 main :nth-child(2) .button{
-    background-image: linear-gradient(to top right,rgb(18, 22, 22, 0.5),rgb(255, 156, 107)39%,rgb(255, 251, 245)40%,rgb(255, 251, 245)60%,rgb(255, 156, 107)61%, rgb(18, 22, 22,0.5));    
+    background-image: linear-gradient(to top right,rgb(255, 156, 107),rgb(255, 156, 107)39%,rgb(255, 251, 245)40%,rgb(255, 251, 245)60%,rgb(255, 156, 107)61%, rgb(255, 156, 107));    
 }
 main :nth-child(3) .button{
-    background-image: linear-gradient(to top right,rgb(18, 22, 22, 0.5),rgb(100, 206, 251)39%,rgb(245, 252, 255)40%,rgb(245, 252, 255)60%,rgb(100, 206, 251)61%, rgb(18, 22, 22,0.5));    
+    background-image: linear-gradient(to top right,rgb(100, 206, 251),rgb(100, 206, 251)39%,rgb(245, 252, 255)40%,rgb(245, 252, 255)60%,rgb(100, 206, 251)61%, rgb(100, 206, 251));    
 }
 main :nth-child(2) .button:hover{
-    background-image: linear-gradient(to top right,rgb(18, 22, 22, 0.5),rgb(255, 156, 107)39%,rgb(255, 251, 245)40%,rgb(255, 251, 245)60%,rgb(255, 156, 107)61%, rgb(18, 22, 22,0.5));    
+    background-image: linear-gradient(to top right,rgb(255, 156, 107),rgb(255, 156, 107)39%,rgb(255, 251, 245)40%,rgb(255, 251, 245)60%,rgb(255, 156, 107)61%, rgbrgb(255, 156, 107));    
 }
 main :nth-child(3) .button:hover{
-    background-image: linear-gradient(to top right,rgb(18, 22, 22, 0.5),rgb(100, 206, 251)39%,rgb(255, 255, 255)40%,rgb(255, 255, 255)60%,rgb(100, 206, 251)61%, rgb(18, 22, 22,0.5));    
+    background-image: linear-gradient(to top right,rgb(100, 206, 251),rgb(100, 206, 251)39%,rgb(255, 255, 255)40%,rgb(255, 255, 255)60%,rgb(100, 206, 251)61%, rgb(100, 206, 251));    
 }
