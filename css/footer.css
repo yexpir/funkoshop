@@ -1,1 +1,38 @@
- 
+ footer{
+    background-color: #30343F;
+    display: grid;
+    grid-template-rows: 3fr 1fr;
+    width: 100%;
+    color: white;
+
+    font-family: 'Raleway';
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 20px;
+ }
+ footer section{
+    display: flex;
+    justify-content: space-between;
+ }
+
+ footer ul{
+    list-style-type: none;
+    align-self: center;
+    margin-left: 5%;
+    margin-top: 4%;
+ }
+ footer ul li{
+    margin-bottom: 0.7em;
+ }
+ footer img{
+    width: 143px;
+    margin-right: 5em;
+    margin-bottom: 1em;
+    align-self: flex-end;
+ }
+
+ footer h4{
+    justify-self: center;
+    align-self: flex-end;
+    font-weight: 500;
+ }
