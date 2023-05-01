@@ -1,0 +1,68 @@
+.item{
+    font-family: 'Inter';
+    width: 360px;
+    box-sizing: content-box;
+    font-style: normal;
+    text-decoration: none;
+    transition: 0.1s;
+}
+.item:hover{
+    box-shadow: 0 0 10px rgb(0, 0, 0);
+    transform: scale(1.025);
+}
+
+.item .specs{
+    margin-left:  1em;
+}
+
+.item .container{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    grid-template-areas: "overlap";
+}
+
+.item img{
+    width: 100%;
+    grid-area: overlap;
+    box-sizing: border-box;
+}
+.item .nuevo{
+    height: 2.4em;
+    width: 7em;
+    text-align: center;
+    line-height: 2.5em;
+    font-size: 14px;
+    margin: 0;
+    grid-area: overlap;
+    color: white   ;
+    justify-self: right;
+    background-color: red;
+    
+}
+
+.item h1{    
+    height: 17px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+}
+.item h2{
+    height: 22px;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+}
+.item h3{
+    height: 19px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+}
+.item h4{
+    height: 15px;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 14.52px;
+    color: #1d84b5;
+}

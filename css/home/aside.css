@@ -1,10 +1,11 @@
 aside{
     margin: auto;
-    
 }
 aside article{
     display: flex;
     flex-flow: row;
+    justify-content: space-between;
+    width: 1240px;
 }
 aside section{
     display: inline-block;
